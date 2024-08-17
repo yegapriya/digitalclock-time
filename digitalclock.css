@@ -1,0 +1,33 @@
+
+body{
+    background:radial-gradient(rgb(210, 152, 44),rgb(194, 27, 27));
+    
+
+}
+.container{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+#wrapper{
+    height: 50px;
+    width:200px;
+    padding:5px;
+    border: 2px,solid; 
+    
+    border-radius: 8px;
+    
+}
+
+#hours,#min,#sec{
+    
+    font-weight: bold;
+    font-size: xx-large;
+    color: #070707;
+}
+#ampx{
+    font-size: 3px;
+    font-weight: bold;
+}
